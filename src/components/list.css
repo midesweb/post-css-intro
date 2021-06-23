@@ -1,0 +1,12 @@
+.List {
+    background-color: red;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+} 
+.List li {
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 2px solid #fdd;
+}

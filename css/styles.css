@@ -1,0 +1,42 @@
+.Button {
+    background-color: #888;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.Button-primary {
+    background-color: rgb(12, 155, 211);
+}
+
+.Button:hover {
+    background-color: #000;
+}
+
+.List {
+    background-color: red;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.List li {
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 2px solid #fdd;
+}
+
+input::-moz-placeholder {
+    color: red;
+}
+
+input:-ms-input-placeholder {
+    color: red;
+}
+
+input::placeholder {
+    color: red;
+}

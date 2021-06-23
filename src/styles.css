@@ -1,0 +1,15 @@
+@import "components/button.css";
+@import "components/list.css";
+
+input::placeholder {
+    color: red;
+}
+
+.image {
+    background-image: url(image@1x.png);
+}
+@media (min-resolution: 2dppx) {
+    .image {
+        background-image: url(image@2x.png);
+    }
+}
